@@ -1,0 +1,51 @@
+.root {
+	-fx-background-color:#82E0AA;
+}
+#upper-pane {
+	-fx-border-color:black;
+	-fx-border-width:0 0 2px 0;
+	-fx-border-style:dashed;
+	-fx-padding:10,10,10,10;
+}
+#bottom-pane {
+	-fx-border-color:black;
+	-fx-border-width:2px 0 0 0;
+	-fx-border-style:solid;
+	-fx-alignment:top-center;
+	-fx-padding:10,10,10,10;
+}
+#round-button {
+	-fx-background-radius:50%;
+	-fx-background-color:#F39C12;
+	-fx-effect:dropshadow(gaussian,rgba(0,0,0,.2),1,5,1,1);
+	-fx-pref-width:90px;
+	-fx-pref-height:90px;
+}
+#round-button:hover {
+	-fx-background-color:#d8901c;
+	-fx-cursor:hand;
+}
+#bar-button {
+	-fx-font-size:20px;
+	-fx-font-color:#FFF;
+	-fx-background-color:#f1b22b;
+	-fx-effect:dropshadow(gaussian,rgba(0,0,0,.2),1,5,1,1);
+}
+#bar-button:hover {
+	-fx-background-color:#d8a12b;
+	-fx-cursor:hand;
+}
+.label {
+	-fx-font-size:20px;
+	-fx-font-family:Helvetica;
+}
+#no-list {
+	-fx-font-size:40px;
+	-fx-text-fill:rgba(0,0,0,.4);
+}
+.table-view .table-column {
+	-fx-padding:10px;
+}
+.table-view .table-row-cell {
+	-fx-min-height:40px;
+}
